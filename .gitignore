@@ -2,4 +2,4 @@
 /dist/
 /.git/
 /app/css/
-/**/*.psd
+/app/font/*//**/*.psd
