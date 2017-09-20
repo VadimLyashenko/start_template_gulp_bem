@@ -6,9 +6,3 @@
 
 #ignore folder git
 /.git/
-
-#ignore files in app/css/
-/app/css/**/*
-
-#ignore files in app/font/
-app/font/**/*
