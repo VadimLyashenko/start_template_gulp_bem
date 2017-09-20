@@ -1,5 +1,14 @@
+#ignore folder node_modules
 /node_modules/
+
+#ignore folder dist
 /dist/
+
+#ignore folder git
 /.git/
-/app/css/
-/app/font/*//**/*.psd
+
+#ignore files in app/css/
+/app/css/**/*
+
+#ignore files in app/font/
+app/font/**/*
