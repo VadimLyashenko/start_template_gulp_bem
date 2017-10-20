@@ -23,7 +23,8 @@ gulp.task('js', function() {
 	return gulp.src(['app/libs/jquery/dist/jquery.min.js',
 	'app/js/common.js'])
 	.pipe(concat('scripts.min.js'))
-	.pipe(uglify())
+	//Минификацая js
+	//.pipe(uglify())
 	.pipe(gulp.dest('app/js'))
 	.pipe(browserSync.reload({stream: true}));
 });
