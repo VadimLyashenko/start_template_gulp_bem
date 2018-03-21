@@ -1,29 +1,35 @@
 {
-  "name": "gulp_html_sass_js",
-  "version": "1.0.1",
-  "description": "Gulp HTML, SASS, CSS, JS, BrowserSynh, ImageMin, Build",
+  "name": "start_template_gulp_bem",
+  "version": "0.0.1",
+  "description": "none",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "gulp_html_sass_js_template"
+    "url": "git+https://github.com/Worstoftheworst/start_template_gulp_bem.git"
   },
-  "author": "Vadim Tera",
+  "author": "Tera",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Worstoftheworst/start_template_gulp_bem/issues"
+  },
+  "homepage": "https://github.com/Worstoftheworst/start_template_gulp_bem#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-cache": "^0.4.6",
-    "gulp-clean-css": "^3.9.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^3.3.0",
-    "gulp-notify": "^3.0.0",
-    "gulp-rename": "^1.2.2",
+    "gulp-real-favicon": "^0.2.2",
+    "browser-sync": "^2.23.6",
+    "gulp-pug": "^3.3.0",
+    "gulp-plumber": "^1.2.0",
     "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^3.0.0"
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "rimraf": "^2.5.4",
+    "gulp-useref": "^3.1.5",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-uglify": "^3.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^4.1.0"
   }
 }

@@ -1,8 +1,2 @@
-#ignore folder node_modules
 /node_modules/
-
-#ignore folder dist
-/dist/
-
-#ignore folder git
-/.git/
+/build/
